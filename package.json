@@ -1,0 +1,14 @@
+{
+  "name": "test-module-andre",
+  "version": "0.0.1",
+  "description": "this is a test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andre",
+  "license": "MIT",
+  "dependencies": {
+    "testemodulonpm": "^0.0.1"
+  }
+}
