@@ -1,5 +1,9 @@
-const squarePlusTwo = require('testemodulonpm')
+const square = require('testemodulonpm')
 
-module.exports = function (num) {
-  return squarePlusTwo(num) + 2
+const squarePlusSomething = (num, num2 = 2) => {
+  return square(num) + num2
+}
+
+module.exports = function (num, num2) {
+  return squarePlusSomething(num, num2)
 }
