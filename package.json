@@ -6,9 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "andre",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahzorek/First-npm-module"
+  },
+  "author": "Andre",
   "license": "MIT",
-  "dependencies": {
-    "testemodulonpm": "^0.0.1"
-  }
+  "bugs": {
+    "url": "https://github.com/ahzorek/First-npm-module/issues"
+  },
+  "homepage": "https://github.com/ahzorek/First-npm-module/test-module-andre#readme"
 }
